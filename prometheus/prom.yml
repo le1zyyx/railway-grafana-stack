@@ -2,6 +2,6 @@ global:
   scrape_interval: 15s
 
 scrape_configs:
-  - job_name: 'prometheus'
+  - job_name: 'zec-service'
     static_configs:
-      - targets: ['railway-production-5759.up.railway.app']
+      - targets: ['railway-production-a74c8.up.railway.app']
