@@ -4,4 +4,4 @@ global:
 scrape_configs:
   - job_name: 'zec-service'
     static_configs:
-      - targets: ['railway-production-a74c8.up.railway.app']
+      - targets: ['16.171.41.70:5050']
